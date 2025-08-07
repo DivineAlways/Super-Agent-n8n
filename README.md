@@ -42,4 +42,5 @@ The system will be composed of a "crew" of specialized agents, each with a disti
 -   **Project Manager Agent (Orchestrator)**: The top-level agent that interacts with the user, breaks down requests, assigns tasks to the appropriate agents, and synthesizes the final output.
 
 This collaborative model allows each agent to focus on what it does best, leading to a more efficient and powerful system.
+FRAMEWORK = https://github.com/crewAIInc/crewAI
 This is a guide on everything needed for an agent with code https://github.com/daveebbelaar/ai-cookbook
