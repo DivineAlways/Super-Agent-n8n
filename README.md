@@ -1,10 +1,15 @@
-Super-Agent: An n8n-Powered Automation Engine
-Project Overview
+### Super-Agent: An n8n-Powered Automation Engine
+
+### Project Overview
 
 The Super-Agent project is a sophisticated, multi-agent AI system built on the powerful n8n automation platform. Its purpose is to understand and execute complex development and administrative workflows from simple, natural language commands. By orchestrating a wide array of external tools and services, this system acts as an intelligent, AI-powered assistant for a modern tech stack.
+
 Unlike traditional single-purpose AI tools, this system uses a modular, multi-agent architecture within n8n to break down complex requests into a series of coordinated, specialized tasks.
-Key Capabilities
+
+### Key Capabilities
+
 The system is designed to handle high-level, conversational requests and translate them into concrete actions, such as:
+
  * "Create a dashboard from the latest tasks in our Go High Level CRM."
  * "Write a backend service for a new feature, containerize it with Docker, create a GitHub repository, and deploy it to Google Cloud Run."
  * "Set up a new Next.js project, connect it to our Supabase database, and deploy it on Vercel."
@@ -35,7 +40,8 @@ Key Technical Features
    * Sends real-time notifications to a Slack channel or via email for immediate attention.
    * Can be configured to automatically retry non-critical tasks.
  * Secure API Credential Management: All API keys and secrets are securely stored and managed within n8n's built-in credential system, avoiding hardcoding sensitive information.
-Getting Started
+   
+ ### Getting Started
  * Clone the Repository:
    git clone https://github.com/your-username/Super-Agent-n8n.git
 cd Super-Agent-n8n
@@ -52,11 +58,13 @@ cd Super-Agent-n8n
    * Create new credentials for each service (Gemini, 11Labs, GitHub, Supabase, etc.) and paste your API keys and tokens.
  * Start the Workflows:
    * Activate the "Orchestrator," "Error Handler," and other necessary workflows. The system is now ready to receive commands and begin its work.
-Contributing
+     
+### Contributing
+
 We welcome contributions to this project! If you'd like to improve the system, add a new agent, or fix a bug, please follow these steps:
  * Fork the repository.
  * Create a new branch (git checkout -b feature/new-agent).
  * Commit your changes (git commit -am 'feat: add new Agent for X').
  * Push to the branch (git push origin feature/new-agent).
  * Create a new Pull Request.
- * 
+   
