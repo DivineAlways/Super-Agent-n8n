@@ -70,7 +70,7 @@ cd Super-Agent-n8n
    
    * Prerequisites: Docker and Docker Compose installed.
    * Run the provided docker-compose.yml file to spin up your n8n instance and a PostgreSQL database.
-   * 
+   
  * Import Workflows:
    * Navigate to your n8n instance in a browser (http://localhost:5678 by default).
      
